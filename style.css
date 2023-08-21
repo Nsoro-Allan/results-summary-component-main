@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background: hsl(0, 0%, 100%);
+}
+
+
+.main-container{
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+    box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+}
+
+.left-container{
+    background: linear-gradient(0deg, rgba(46,43,233,1) 16%, rgba(120,87,255,1) 99%);
+    width: 60%;
+    border-radius: 20px;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.left-title h4{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+
+}
+
+.left-content{
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0.24) 1%, hsla(256, 72%, 46%, 1) 60%);
+    padding: 28px;
+    text-align: center;
+    border-radius: 50%;
+    width: 135px;
+    height: 140px;
+    margin: 20px;
+}
+
+.left-content h1{
+    font-size: 3.4rem;
+}
+
+.left-content p{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+
+.left-footer{
+    text-align: center;
+}
+
+.left-footer h1{
+    padding: 10px;
+}
+
+.left-footer p{
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.right-title{
+    padding: 15px;
+}
+
+.right-title h4{
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+}
+
+
+/* Card One Starts Here */
+.card1{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background: hsla(0, 100%, 67%,10%);
+    color: hsl(0, 100%, 67%);
+    width: 100%;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card1 .card-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1 .card-left p{
+    padding-left: 10px;
+}
+
+.card1 .card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 90px;
+}
+
+.card1 .card-right p{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.card1 .card-right p span{
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+/* Card One Ends Here */
+
+
+
+/* Card Two Starts Here */
+.card2{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background: hsla(39, 100%, 56%,10%);
+    color: hsl(39, 100%, 56%);
+    width: 100%;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card2 .card-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.card2 .card-left p{
+    padding-left: 10px;
+}
+
+.card2 .card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 95px;
+}
+
+.card2 .card-right p{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.card2 .card-right p span{
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+/* Card Two Ends Here */
+
+
+
+/* Card Three Starts Here */
+.card3{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background: hsla(166, 100%, 37%,10%);
+    color: hsl(166, 100%, 37%);
+    width: 100%;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card3 .card-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.card3 .card-left p{
+    padding-left: 10px;
+}
+
+.card3 .card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 108px;
+}
+
+.card3 .card-right p{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.card3 .card-right p span{
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+/* Card Three Ends Here */
+
+
+
+/* Card Four Starts Here */
+.card4{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    background: hsla(234, 85%, 45%,10%);
+    color: hsl(234, 85%, 45%);
+    width: 100%;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card4 .card-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.card4 .card-left p{
+    padding-left: 10px;
+}
+
+.card4 .card-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 110px;
+}
+
+.card4 .card-right p{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.card4 .card-right p span{
+    color: hsl(241, 100%, 89%);
+    font-weight: bold;
+}
+/* Card Four Ends Here */
+
+.right-button{
+    margin: 15px;
+}
+
+.right-button button{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    width: 105.5%;
+    color: hsl(0, 0%, 100%);
+    background: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.right-button button:hover{
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(0deg, rgba(46,43,233,1) 16%, rgba(120,87,255,1) 99%);
+    cursor: pointer;
+}
+
+/* Responsiveness Starts Here */
+@media only screen and (max-width: 390px){
+
+    .main-container{
+        background: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 26%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        -webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+        -moz-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+        box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.30);
+    }
+
+    .left-container{
+        background: linear-gradient(0deg, rgba(46,43,233,1) 16%, rgba(120,87,255,1) 99%);
+        width: 100%;
+        border-radius: 20px;
+        padding: 15px;
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+}
+/* Responsiveness Ends Here */
+
